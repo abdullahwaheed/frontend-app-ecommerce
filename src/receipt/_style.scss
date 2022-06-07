@@ -1,0 +1,69 @@
+#receipt-container {
+    width: 1170px;
+    padding-top: 2rem;
+}
+
+.page__receipt {
+    h2 {
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    .thank-you {
+        font-size: 38px;
+    }
+
+    .info-item {
+        overflow: hidden;
+    }
+
+    .copy {
+        > div {
+            margin-bottom: 1rem;
+            line-height: 1.5rem;
+        }
+
+        .billing-address {
+            margin: 2rem 0;
+        }
+    }
+
+    .order-total {
+        margin-left: 50%;
+        padding: 1rem 0;
+    
+        .description {
+            width: 62.5%;
+            font-size: 0.875rem;
+            font-weight: bold;
+    
+            .discount {
+                line-height: 1.5em;
+            }
+        }
+    
+        .description, .price {
+            display: inline-block;
+        }
+    
+        .price {
+            float: right;
+            margin-right: 20%;
+            font-size: 0.875rem;
+        }
+    
+        .enterprise-customer {
+            font-weight: 300;
+            padding-top: 0.75rem;
+        }
+    }
+
+    #cta-nav-links {
+        margin: 2rem;
+
+        .dashboard-link {
+            margin-right: 2.5rem;
+        }
+    }
+    
+}
